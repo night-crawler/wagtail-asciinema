@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import os
 from setuptools import find_packages, setup
 from wagtail_asciinema import __version__
 
+os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 with open('README.rst', 'r') as f:
     long_description = f.read()
