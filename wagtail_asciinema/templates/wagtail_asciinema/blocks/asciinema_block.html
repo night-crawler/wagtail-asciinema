@@ -1,0 +1,13 @@
+<asciinema-player
+    {% if value.loop %}loop="1"{% endif %}
+    {% if value.autoplay %}autoplay="1"{% endif %}
+    {% if value.preload %}preload="1"{% endif %}
+    {% if value.poster %}poster="{{ value.poster }}"{% endif %}
+    {% if value.cols %}cols="{{ value.cols }}"{% endif %}
+    {% if value.rows %}rows="{{ value.rows }}"{% endif %}
+    src="{{ value.document.url }}"
+    font-size="{{ value.font_size }}"
+    speed="{{ value.speed }}"
+    start-at="{{ value.start_at }}"
+    theme="{{ value.theme }}">
+</asciinema-player>
