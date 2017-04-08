@@ -13,7 +13,7 @@ setup(
     name='wagtail-asciinema',
     version=__version__,
     packages=find_packages(),
-    url='https://github.com/night-crawler/wagtail_asciinema',
+    url='https://github.com/night-crawler/wagtail-asciinema',
     license='MIT',
     author='night-crawler',
     author_email='www@force.fm',
