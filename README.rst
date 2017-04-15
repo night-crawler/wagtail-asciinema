@@ -57,7 +57,7 @@ into your static/js blocks:
 
 And then add asciinema on your page on demand:
 
-.. code:: djangotemplate
+.. code:: html
 
     {% block extra_css %}
       {% if self.has_asciinema %}
